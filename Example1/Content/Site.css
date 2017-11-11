@@ -1,6 +1,13 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿@import url('https://fonts.googleapis.com/css?family=Kalam|Kaushan+Script');
+
+/*font-family: 'Kaushan Script', cursive;
+font-family: 'Kalam', cursive;*/
+
+
+body {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-family: 'Trebuchet MS';
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,3 +29,12 @@ select,
 textarea {
     max-width: 280px;
 }
+
+footer {
+    font-family: 'Kalam', cursive;
+    font-size: 1em;
+    font-variant: small-caps;
+    color: rgba(52, 51, 51, 0.89);
+}
+
+
